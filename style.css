@@ -1,0 +1,113 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input[type=number] {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+
+  -moz-appearance: textfield;
+}
+
+select{
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  background-color: #FADA06;
+  border-radius: 50px;
+  color: #fafafa;
+  cursor: pointer;
+  font-family: 'Roboto mono'monospace;
+  font-weight: 400;
+  height: 55px;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 150px;
+}
+
+.msg {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+
+
+.conversor-wrapper{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  min-height: 50vh;
+}
+
+.invert{
+  flex-direction: column-reverse;
+}
+
+.convert-block{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: center;
+  position: relative;
+}
+
+.conversor-wrapper img{
+  cursor: pointer;
+  height: 31px;
+  transition: 550ms ease-in-out;
+  width: 31px;
+}
+
+.motion-girar{
+  transform: rotate(180deg);
+}

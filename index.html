@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Descubra os valores do real em dólar USD, ienes JPY ou euro EUR.<br>
+      (valores atualizados diariamente)
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <div class="conversor-wrapper">
+      <div class="convert-block">
+        <label>Insira o valor em Reais (BRL)</label><br>
+        <input type="number" class="valor-inicial"><br>
+      </div>
+      <img src="https://cdn-icons-png.flaticon.com/512/4856/4856659.png">
+      <div class="convert-block">
+        <label>Selecione para qual moeda você quer converter</label><br>
+        <select name="" id="moeda-estrangeira">
+          <option value="USD">Dólar americano (USD)</option>
+          <option value="JPY">Iene Japonês (JPY)</option>
+          <option value="EUR">Euro (EUR)</option>
+        </select><br>
+      </div>
+    </div>
+    <span class="msg"></span><br>
+    <button onclick="converterValor()">Converter</button>
+  </div>
+</body>
+</html>
